@@ -1,0 +1,148 @@
+body {
+   background-color: #0000ff;
+}
+.section {
+    position: relative;
+    background-color: #0000ff;
+}
+.div-north {
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    width: 400px;
+    animation: north 10s 1;
+}
+.north {
+    width: 400px;
+}
+@keyframes north {
+    0% {top: 0px; left: 0px;}
+    /* 25% {top: 10px; left: 33px;}
+    50% {top: 20px; left: 63px;}
+    75% {top: 30px; left: 96px;} */
+    100% {top: 40px; left: 140px;}
+}
+.div-north :hover {
+    width: 600px;
+}
+.div-africa {
+    position: absolute;
+    right: 416px;
+    top: 241px;
+    width: 200px;
+    animation: africa 10s 1;
+}
+.africa {
+    width: 200px;
+}
+@keyframes africa {
+    0% {top: 0px; right: 0px;}
+    /* 25% {top: 45px; right: 100px;}
+    50% {top: 90px; right: 200px;}
+    75% {top: 150px; right: 300px;} */
+    100% {top: 241px; right: 416px;}
+}
+.div-africa :hover {
+    width: 400px;
+}
+.div-asia {
+    position: absolute;
+    right: 233px;
+    top: 45px;
+    width: 300px;
+    animation: asia 10s 1s;
+}
+.asia {
+    width: 300px;
+}
+@keyframes asia {
+    0% {top: 0px; right: 0px;}
+    /* 25% {top: 11px; right: 40px;}
+    50% {top: 22px; right: 80px;}
+    75% {top: 33px; right: 140px;} */
+    100% {top: 45px; right: 233px;}
+}
+.div-asia :hover {
+    width: 400px;
+}
+.div-europe {
+    position: absolute;
+    top: 43px;
+    right: 444px;
+    width: 250px;
+    animation: erope 10s 1;
+}
+.eorope { 
+    width: 250px;
+    
+}
+@keyframes erope {
+    0% {top: 0px; right: 0px;}
+    /* 25% {top: 11px; right: 110px;}
+    50% {top: 22px; right: 220px;}
+    75% {top: 33px; right: 340px;} */
+    100% {top: 43px; right: 444px;}
+}
+.div-europe :hover {
+    width: 300px;
+}
+.div-middle {
+    position: absolute;
+    top: 146px;
+    right: 381px;
+    width: 150px;
+    animation: middle 10s 1;
+}
+.middle {
+    width: 150px;
+}
+@keyframes middle {
+    0% {top: 0px; right: 0px;}
+    /* 25% {top: 36px; right: 95px;}
+    50% {top: 72px; right: 190px;}
+    75% {top: 108px; right: 245px;} */
+    100% {top: 146px; right: 381px;}
+}
+.div-middle :hover {
+    width: 200px;
+}
+.div-south {
+    position: absolute;
+    left: 350px;
+    top: 308px;
+    width: 130px;
+    animation: south 10s 1;
+}
+.south {
+    width: 130px;
+}
+@keyframes south{
+    0% {left: 0; top: 0;}
+    /* 25% {left: 87px; top: 75px;}
+    50% { left: 174px; top: 150px;}
+    75% { left: 261px; top: 225px;} */
+    100% {left: 350px; top: 308px;}
+}
+.div-south :hover {
+    width: 260px;
+}
+.div-australia {
+    position: absolute;
+    right: 163px;
+    top: 292px;
+    width: 150px;
+    animation: australia 10s 1;
+}
+.australia {
+    width: 150px;
+}
+@keyframes australia {
+    0% {right: 0; top: 0 ;}
+    /* 25% {right: 40px; top: 50px ;}
+    50% {right: 80px; top: 100px ;}
+    75% { right: 120px; top: 150px ;} */
+    100% { right: 163px; top: 292 ;}
+}
+.div-australia :hover{
+    width: 300px;
+}
